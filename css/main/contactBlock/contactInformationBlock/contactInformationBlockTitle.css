@@ -1,0 +1,54 @@
+.contactInformationBlockTitle {
+	width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+	.contactInformationBlockTitle {
+		width: 100%;
+		font-size: 23px;
+}
+}
+
+@media screen and (max-width: 768px) {
+	.contactInformationBlockTitle + p,  .contactInformationBlockTitle + p + p {
+		font-size: 10px;
+		width: 155px;
+		height: 30px;
+	
+		margin-top: -50px;
+
+		white-space: pre-line;
+		line-height: 9px;
+}
+	.contactInformationBlockTitle + p + p {
+		line-height: 5px;
+	}
+}
+
+
+
+@media screen and (max-width: 576px) {
+	.contactInformationBlockTitle {
+		font-size: 20px;
+	}
+
+	.contactInformationBlockTitle + p {
+		margin: 0;
+		width:100%;
+		height: auto;
+		font-size: 15px;
+		line-height: 19px;
+	}
+
+	.contactInformationBlockTitle + p + p { 
+		margin: 0;
+		width: 100%;
+		height: auto;
+		font-size: 15px;
+		margin-top: 20px;
+	}
+
+	.contactInformationBlockTitle + p + p +div {
+		margin-top: 20px;
+	}
+}

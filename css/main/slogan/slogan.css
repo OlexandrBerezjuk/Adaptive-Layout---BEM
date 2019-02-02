@@ -1,0 +1,41 @@
+.slogan {
+	height: 157px;
+
+	margin: 0px;
+	
+	flex-direction: row;
+	justify-content: space-around;
+	/*flex-wrap: wrap;*/
+
+	color: #f7f4f1;
+
+	box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 992px) {
+	.slogan {
+		margin-top: -40px;
+}		
+}
+
+@media screen and (max-width: 768px) {
+	.slogan {
+		width: 90%;
+		min-width: 0px;
+		height: auto;
+}
+}
+
+@media screen and (max-width: 576px) {
+	.slogan {
+		width: 80%;
+		min-width: 0px;
+		height: 330px;
+		margin-top: -29px;
+		flex-wrap: wrap;
+}
+}
+
+
+

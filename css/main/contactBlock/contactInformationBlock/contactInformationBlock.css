@@ -1,0 +1,31 @@
+.contactInformationBlock {
+	width: 48%;
+	height: 282px;
+}
+
+@media screen and (max-width: 768px) {
+	.contactInformationBlock {
+		width: 90%;
+		height: 182px;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-content: space-between;
+	}
+
+	.contactInformationBlock + img {
+		top: 200px;
+	}
+
+}
+
+
+@media screen and (max-width: 576px)  {
+	.contactInformationBlock {
+		width: 100%;
+		min-height: 200px;
+		height: auto;
+	}
+	.contactInformationBlock + img {
+		top: 300px;
+	}
+}

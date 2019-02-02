@@ -1,0 +1,39 @@
+.footerBlock {
+	max-width: 940px;
+	width: 90%;
+	height: 193px;
+	
+	margin: 0 auto;
+
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+	.footerBlock {
+		width: 90%;
+		height: auto;
+		flex-wrap: wrap;
+		justify-content: space-around;
+}
+}
+
+/*@media screen and (max-width: 576px) {
+	
+}
+*/
+/*.main {
+	/max-width: 940px;
+	/width: 940px;
+	/height: 1396px;
+
+	/margin-top: 105px;
+
+	/display: flex;
+	flex-direction: column;
+	/align-items: center;
+	/justify-content: space-around;
+}*/
+
+
+

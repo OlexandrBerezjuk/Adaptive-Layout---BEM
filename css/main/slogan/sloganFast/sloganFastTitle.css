@@ -1,0 +1,18 @@
+.sloganFastTitle {
+	width: 92px;
+	
+	font-size: 27px;
+	line-height: 42px;
+	letter-spacing: -2px;
+	text-align: center;
+
+}
+
+@media screen and (max-width: 576px) {
+	.sloganFastTitle {
+		height: 32px;
+		
+		font-size: 21px;
+		
+}
+}

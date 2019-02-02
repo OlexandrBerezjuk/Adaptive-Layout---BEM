@@ -1,0 +1,18 @@
+.contactInformationBlockSign {
+	width: 40%;
+	height: 291px;
+}
+
+@media screen and (max-width: 768px) {
+	.contactInformationBlockSign {
+		width: 85%;
+		height: 245px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.contactInformationBlockSign {
+		margin-top: 55px;
+		height: auto;
+	}
+}

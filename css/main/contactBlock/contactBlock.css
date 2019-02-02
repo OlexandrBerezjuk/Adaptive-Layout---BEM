@@ -1,0 +1,25 @@
+.contactBlock {
+	height: 396px;
+	background-color: white;
+
+	margin: 0px;
+}
+
+@media screen and (max-width: 992px) {
+	.contactBlock {
+		padding-right: 40px;
+}
+}
+
+@media screen and (max-width: 768px) {
+	.contactBlock {
+		height: 485px;
+		padding: 15px;
+}
+}
+
+@media screen and (max-width: 576px) {
+	.contactBlock {
+	width: 80%;
+	height: auto;
+}

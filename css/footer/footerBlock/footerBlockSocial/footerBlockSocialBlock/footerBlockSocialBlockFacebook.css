@@ -1,0 +1,14 @@
+.footerBlockSocialBlockFacebook {
+	position: relative;
+	width: 43px;
+	height: 43px;
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+
+	background-color: #000000;
+}
+
+.footerBlockSocialBlockFacebook:hover {
+	background-color: blue;
+}

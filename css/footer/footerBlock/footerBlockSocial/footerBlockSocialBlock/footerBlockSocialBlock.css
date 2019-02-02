@@ -1,0 +1,11 @@
+.footerBlockSocialBlock {
+	width: 100%;
+	height: 43px;
+}
+
+/*@media screen and (max-width: 576px) {
+	.footerBlockSocialBlock {
+		width: 50%;
+	}
+}
+*/

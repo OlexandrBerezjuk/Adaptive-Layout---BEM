@@ -1,0 +1,31 @@
+.sloganFast {
+	width: 100%;
+	box-sizing: border-box;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-top: -64px;
+	padding: 0 5px 0 5px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+	.sloganFast {
+		max-width: 240px;
+		min-width: 0px;
+}		
+}
+
+@media screen and (max-width: 576px) {
+	.sloganFast {
+		max-width: 430px;
+		min-width: 0px;
+		width: 100%;
+		height: auto;
+		margin-top: -47px;
+}		
+}
